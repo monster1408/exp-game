@@ -1,3 +1,6 @@
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
 game = 1;
 x = 0;
 function shooting(){
