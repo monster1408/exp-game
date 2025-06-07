@@ -16,7 +16,7 @@ function shooting(){
             x += 2;
         }
     }
-                              }
+}
 if(game == 1){
   setInterval(Shooting, 100);
 }
