@@ -8,6 +8,9 @@ function shooting(){
     ctx.closePath();
     ctx.fillStyle = "green";
     ctx.fill(); 
+    if(event.key){
+        x += 2;
+    }
 }
 
 if(game == 1){
