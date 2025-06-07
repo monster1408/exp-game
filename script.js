@@ -7,7 +7,7 @@ function shooting(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
     ctx.beginPath();
-    ctx.moveTo(150 + x, 150);
+    ctx.moveTo(125 + x, 225);
     ctx.lineTo(200 + x, 250);
     ctx.lineTo(150 + x, 250);
     ctx.closePath();
@@ -15,7 +15,7 @@ function shooting(){
     ctx.fill(); 
     document.addEventListener("keydown", function(event) {
         if (event.key === "ArrowRight") {
-            x += 0.1;
+            x += 1;
         }
     });
 }
