@@ -7,11 +7,11 @@ function shooting(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
     ctx.beginPath();
-    ctx.moveTo(150 + x, 200);
+    ctx.moveTo(150 + x, 150);
     ctx.lineTo(200 + x, 250);
-    ctx.lineTo(100 + x, 250);
+    ctx.lineTo(150 + x, 250);
     ctx.closePath();
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "black";
     ctx.fill(); 
     document.addEventListener("keydown", function(event) {
         if (event.key === "ArrowRight") {
