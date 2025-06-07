@@ -14,8 +14,7 @@ function shooting(){
     document.addEventListener("keydown", function(event) {
         if (event.key === "ArrowRight") {
             x += 2;
-        })
-    }
+    });
 }
 if(game == 1){
   setInterval(shooting, 100);
