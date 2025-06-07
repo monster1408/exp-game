@@ -1,8 +1,8 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
-game = 1;
-x = 0;
+let game = 1;
+let x = 0;
 function shooting(){
     ctx.beginPath();
     ctx.moveTo(150 + x, 200);
@@ -18,5 +18,5 @@ function shooting(){
     }
 }
 if(game == 1){
-  setInterval(Shooting, 100);
+  setInterval(shooting, 100);
 }
